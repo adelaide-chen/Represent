@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Represent!</string>
+    <string name="zip">Enter a ZIP code</string>
+    <string name="or">or </string>
+    <string name="curr_location">Current Location</string>
+    <string name="input">ZIP code</string>
+    <string name="textView">Welcome to Represent!
+        This app delivers facts about congressmen
+        to voters on the go based on ZIP code.
+        Just select from the options below to get started.</string>
+    <string name="random_location">Random Location</string>
+    <string name="title_activity_central">CentralActivity</string>
+
+    <string name="foundzipcode">%1$d</string>
+    <string name="backButton">&lt; Back</string>
+</resources>
