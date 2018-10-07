@@ -1,0 +1,245 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:customtabs:28.0.0-alpha1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/customtabs-28.0.0-alpha1.aar/d78fa0ab8a6fcade735143b2437355d3/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:design:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dbc3f2780cc27f7a2b2fd6639a6411af/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0561043022adf0857484e679923c20b4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/0eb7a3e3fcd4bc93deb41729474e98f8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5ceb7c997fdbec49535aebfbf025dd45/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/85568a20c634336fdd6e08560a54dfe2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/90ef10418459c2e1af1dfef6dc6f3594/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/145c0be6575d4aab013ea2171bb9e06b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0-alpha1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha1.aar/4ceba37821155a7608952f903e59e77b/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha1.aar/ff615f1d90c383b2ed67686a51bcce1b/AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/c4d5c87d5f3f61e820860e545b01a9c4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3ae920cc87ae624a28cc466c6c6c26cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/adylady/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/eadf2e22208ac49b2693edceff871ac9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/8f57d02f10b381588ef96f3a755f778b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/296f6c6fdf0d7453bf04975e58510e8a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/b45f604555463be3077f5da9ddab8981/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/0445dc4b167cdb6a3c2ed36b2d962630/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/59c7d48a628bcb478b486a6e363facaa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3488921d6ffdda9ce8ff772d075cbfc2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b1eed8bf09d75f4403720ebcd8a943ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/2724f2cf2312973082a9004451873f10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3697d1a6f836c351112aa4892d0ec8ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2366c9e19a2a68ce068fee541906bc6d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9e5dad44ac969b8e8484ceab086e9a0a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5cf94fb0b07f7ef9379b7a40f29c8cbe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4e0652dd2c4d1820fa30f617eae2463d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/deb8a7859f7f5aa6a004813deef98914/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a93350d3a9b566cbd710254b0f4d5532/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/43c7d28d06d1e599a406ed35cd67c62e/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bde067bdc4da9d67b8d795600118620d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0dd1cba1341bec3439174c15491dc19d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/94751e52f1fb0b4964eac3e569cf5bbb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/39004a36351433e40f6e1eef8e934cc0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b7152c7eb77bcdfd0a8562c79ec7e9e5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f3ac3d2d892822b40d941803e7dcf8b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a0e267fcfad6fd478bbcc36fc6ce9c5f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b963b6d30ed5f867f149c54214b19616/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/63035402ae2929ed71a41dcb62278cf8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f523cb422addd5f06b3a63afd9c5125c/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:3:5-55
+		INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:7:22-64
+application
+ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:9:5-23:19
+MERGED from [com.android.support:design:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dbc3f2780cc27f7a2b2fd6639a6411af/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dbc3f2780cc27f7a2b2fd6639a6411af/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/0eb7a3e3fcd4bc93deb41729474e98f8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/0eb7a3e3fcd4bc93deb41729474e98f8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5ceb7c997fdbec49535aebfbf025dd45/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5ceb7c997fdbec49535aebfbf025dd45/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/85568a20c634336fdd6e08560a54dfe2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/85568a20c634336fdd6e08560a54dfe2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/90ef10418459c2e1af1dfef6dc6f3594/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/90ef10418459c2e1af1dfef6dc6f3594/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/145c0be6575d4aab013ea2171bb9e06b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/145c0be6575d4aab013ea2171bb9e06b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/adylady/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/eadf2e22208ac49b2693edceff871ac9/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/adylady/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/eadf2e22208ac49b2693edceff871ac9/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a93350d3a9b566cbd710254b0f4d5532/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a93350d3a9b566cbd710254b0f4d5532/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/43c7d28d06d1e599a406ed35cd67c62e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/43c7d28d06d1e599a406ed35cd67c62e/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a93350d3a9b566cbd710254b0f4d5532/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.wordpress.adelaidebchen.a2brepresent.MainActivity
+ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:16:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:customtabs:28.0.0-alpha1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/customtabs-28.0.0-alpha1.aar/d78fa0ab8a6fcade735143b2437355d3/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:customtabs:28.0.0-alpha1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/customtabs-28.0.0-alpha1.aar/d78fa0ab8a6fcade735143b2437355d3/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dbc3f2780cc27f7a2b2fd6639a6411af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/dbc3f2780cc27f7a2b2fd6639a6411af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0561043022adf0857484e679923c20b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0561043022adf0857484e679923c20b4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/0eb7a3e3fcd4bc93deb41729474e98f8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/0eb7a3e3fcd4bc93deb41729474e98f8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5ceb7c997fdbec49535aebfbf025dd45/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5ceb7c997fdbec49535aebfbf025dd45/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/85568a20c634336fdd6e08560a54dfe2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/85568a20c634336fdd6e08560a54dfe2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/90ef10418459c2e1af1dfef6dc6f3594/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/90ef10418459c2e1af1dfef6dc6f3594/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/145c0be6575d4aab013ea2171bb9e06b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/145c0be6575d4aab013ea2171bb9e06b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-alpha1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha1.aar/4ceba37821155a7608952f903e59e77b/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-v4:28.0.0-alpha1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-alpha1.aar/4ceba37821155a7608952f903e59e77b/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha1.aar/ff615f1d90c383b2ed67686a51bcce1b/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-alpha1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-alpha1.aar/ff615f1d90c383b2ed67686a51bcce1b/AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/c4d5c87d5f3f61e820860e545b01a9c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/c4d5c87d5f3f61e820860e545b01a9c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3ae920cc87ae624a28cc466c6c6c26cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3ae920cc87ae624a28cc466c6c6c26cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/adylady/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/eadf2e22208ac49b2693edceff871ac9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/adylady/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/eadf2e22208ac49b2693edceff871ac9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/8f57d02f10b381588ef96f3a755f778b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/8f57d02f10b381588ef96f3a755f778b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/296f6c6fdf0d7453bf04975e58510e8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/296f6c6fdf0d7453bf04975e58510e8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/b45f604555463be3077f5da9ddab8981/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/b45f604555463be3077f5da9ddab8981/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/0445dc4b167cdb6a3c2ed36b2d962630/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/0445dc4b167cdb6a3c2ed36b2d962630/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/59c7d48a628bcb478b486a6e363facaa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/59c7d48a628bcb478b486a6e363facaa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3488921d6ffdda9ce8ff772d075cbfc2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3488921d6ffdda9ce8ff772d075cbfc2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b1eed8bf09d75f4403720ebcd8a943ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b1eed8bf09d75f4403720ebcd8a943ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/2724f2cf2312973082a9004451873f10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/2724f2cf2312973082a9004451873f10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3697d1a6f836c351112aa4892d0ec8ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/3697d1a6f836c351112aa4892d0ec8ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2366c9e19a2a68ce068fee541906bc6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2366c9e19a2a68ce068fee541906bc6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9e5dad44ac969b8e8484ceab086e9a0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9e5dad44ac969b8e8484ceab086e9a0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5cf94fb0b07f7ef9379b7a40f29c8cbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5cf94fb0b07f7ef9379b7a40f29c8cbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4e0652dd2c4d1820fa30f617eae2463d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4e0652dd2c4d1820fa30f617eae2463d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/deb8a7859f7f5aa6a004813deef98914/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/deb8a7859f7f5aa6a004813deef98914/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a93350d3a9b566cbd710254b0f4d5532/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a93350d3a9b566cbd710254b0f4d5532/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/43c7d28d06d1e599a406ed35cd67c62e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/43c7d28d06d1e599a406ed35cd67c62e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bde067bdc4da9d67b8d795600118620d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bde067bdc4da9d67b8d795600118620d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0dd1cba1341bec3439174c15491dc19d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0dd1cba1341bec3439174c15491dc19d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/94751e52f1fb0b4964eac3e569cf5bbb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/94751e52f1fb0b4964eac3e569cf5bbb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/39004a36351433e40f6e1eef8e934cc0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/39004a36351433e40f6e1eef8e934cc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b7152c7eb77bcdfd0a8562c79ec7e9e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b7152c7eb77bcdfd0a8562c79ec7e9e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f3ac3d2d892822b40d941803e7dcf8b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f3ac3d2d892822b40d941803e7dcf8b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a0e267fcfad6fd478bbcc36fc6ce9c5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a0e267fcfad6fd478bbcc36fc6ce9c5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b963b6d30ed5f867f149c54214b19616/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b963b6d30ed5f867f149c54214b19616/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/63035402ae2929ed71a41dcb62278cf8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/adylady/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/63035402ae2929ed71a41dcb62278cf8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f523cb422addd5f06b3a63afd9c5125c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f523cb422addd5f06b3a63afd9c5125c/AndroidManifest.xml:20:5-44
+INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adylady/2BRepresent/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d0ce72273c8fcb52c7fc3f7c01aaaa3e/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5ceb7c997fdbec49535aebfbf025dd45/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5ceb7c997fdbec49535aebfbf025dd45/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5ceb7c997fdbec49535aebfbf025dd45/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5ceb7c997fdbec49535aebfbf025dd45/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/145c0be6575d4aab013ea2171bb9e06b/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/145c0be6575d4aab013ea2171bb9e06b/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/adylady/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/145c0be6575d4aab013ea2171bb9e06b/AndroidManifest.xml:24:13-58
