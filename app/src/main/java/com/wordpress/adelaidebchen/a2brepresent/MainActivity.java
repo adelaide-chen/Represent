@@ -13,6 +13,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -237,13 +238,16 @@ public class MainActivity extends AppCompatActivity {
         view.setLayoutManager(new LinearLayoutManager(this));
         view.setAdapter(adaptor);
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dict.clear();
-                goToMain();
-            }
-        });
+        if (back != null) {
+            back.setVisibility(View.INVISIBLE);
+            back.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    dict.clear();
+                    goToMain();
+                }
+            });
+        }
 
         Button rand = findViewById(R.id.rand_location);
         Button curr = findViewById(R.id.curr_location);
@@ -256,13 +260,31 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setPartyIcon(Person person, ImageView view) {
-        if (person.getParty().equals("Democrat")) {
+
+        String party = person.getParty();
+        final String link;
+
+        if (party.equals("Democrat")) {
             view.setImageResource(R.drawable.donkey);
-        } else if (person.getParty().equals("Republican")) {
+            link = "https://en.wikipedia.org/wiki/Democratic_Party_(United_States)";
+        } else if (party.equals("Republican")) {
             view.setImageResource(R.drawable.elephant);
+            link = "https://en.wikipedia.org/wiki/Republican_Party_(United_States)";
         } else {
             view.setImageResource(R.drawable.independent);
+            link = "https://en.wikipedia.org/wiki/List_of_political_parties_in_the_United_States";
         }
+
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse(link));
+                startActivity(intent);
+            }
+        });
     }
 
     private String portraitURL(String bioguide_id) {
@@ -280,7 +302,7 @@ public class MainActivity extends AppCompatActivity {
             URL url = new URL(String.format("https://api.propublica.org/congress/v1/members/%1$s.json", bioguide_id));
 
             HttpsURLConnection conn = (HttpsURLConnection)url.openConnection();
-            conn.setRequestProperty("X-API-Key:", api_key);
+            conn.setRequestProperty("X-API-Key", api_key);
             InputStream is = conn.getInputStream();
             InputStreamReader isr = new InputStreamReader(is);
             BufferedReader br = new BufferedReader(isr);
@@ -293,9 +315,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             br.close();
-
-            test.setText(result.toString());
-            parseCommittes(result.toString());
+            parseCommittees(result.toString());
 
         } catch (Exception e) {
             e.getMessage();
@@ -303,17 +323,30 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void parseCommittes(String jsonData) throws JSONException {
-        TextView comm = findViewById(R.id.committees);
+    private void parseCommittees(String jsonData) throws JSONException {
+        TextView commView = findViewById(R.id.committees);
+        List<String> masterList = new ArrayList<>();
 
         JSONObject root = new JSONObject(jsonData);
         JSONArray results = root.getJSONArray("results");
         JSONObject result = results.getJSONObject(0);
         JSONArray roles = result.getJSONArray("roles");
         for (int i=0; i<roles.length(); i++) {
-        //    JSONObject role = roles.get(i);
+            JSONObject role = roles.getJSONObject(i);
+            if (role.get("congress").equals("115")) {
+                JSONArray comm = role.getJSONArray("committees");
+                for (int j=0; j < comm.length(); j++) {
+                    JSONObject commObj = comm.getJSONObject(j);
+                    String commStr = commObj.getString("name");
+                    masterList.add(commStr);
+                }
+            }
         }
-
+        if (masterList.size() == 0) {
+            commView.setText("No committee assignment RIP");
+        } else {
+            commView.setText(TextUtils.join("\n", masterList));
+        }
     }
 
     public void detailedView (final Person person) {
@@ -358,6 +391,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (email != null ) {
+            email.setVisibility(View.VISIBLE);
             email.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -371,6 +405,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (back != null) {
+            back.setVisibility(View.VISIBLE);
             back.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
