@@ -117,14 +117,17 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onSuccess(Location location) {
                             // Got last known location. In some rare situations, this can be null.
-                        if (location != null) {
-                            lat = location.getLatitude();
-                            lng = location.getLongitude();
-                            text.setText(String.format("%f, %f", lat, lng) );
+                            lng = -122.084;
+                            lat = 37.422;
                             findAddress(lat, lng);
-                        } else {
-                            text.setText("empty");
-                        }
+//                            if (location != null) {
+//                            lat = location.getLatitude();
+//                            lng = location.getLongitude();
+//                            text.setText(String.format("%f, %f", lat, lng) );
+//                            findAddress(lat, lng);
+//                        } else {
+//                            text.setText("empty");
+//                        }
                         }
                     });
                     System.out.print(pinpoint);
@@ -192,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String zipcode = results.getJSONObject(0)
+        zipcode = results.getJSONObject(0)
                 .getJSONObject("address_components")
                 .getString("zip");
 
@@ -239,7 +242,7 @@ public class MainActivity extends AppCompatActivity {
         view.setAdapter(adaptor);
 
         if (back != null) {
-            back.setVisibility(View.INVISIBLE);
+            back.setVisibility(View.VISIBLE);
             back.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -358,7 +361,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView link = findViewById(R.id.link1A);
         ImageView email = findViewById(R.id.email1A);
         ImageView picture = findViewById(R.id.portrait);
-        TextView back = findViewById(R.id.backButton);
+        TextView back = findViewById(R.id.backButton2);
 
         findCommittees(api_key2, person.getBioguide_id());
 

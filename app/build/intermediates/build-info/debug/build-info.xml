@@ -1,59 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="23"
-    build-mode="HOT_WARM"
-    density="xhdpi"
+    abi="x86"
+    api-level="28"
+    build-mode="COLD"
+    density="420dpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.2.0"
-    timestamp="1538901384946"
+    timestamp="1538961077567"
     token="5310701121922978363"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1109" />
+        duration="995" />
     <task
         name="instant-run-dex"
-        duration="342" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="193" />
+        duration="188" />
     <task
         name="verifier"
-        duration="47" />
+        duration="31" />
 
     <artifact
-        location="/Users/adylady/2BRepresent/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="/Users/adylady/2BRepresent/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1538899168495"
+        timestamp="1538961001307"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
+            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -62,10 +54,19 @@
             location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/adylady/2BRepresent/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/adylady/2BRepresent/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -74,33 +75,11 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1538901008271"
+        timestamp="1538961077567"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/adylady/2BRepresent/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/adylady/2BRepresent/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1538901188672"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/adylady/2BRepresent/app/build/intermediates/builds/debug/1538901188672/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1538901384946"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/adylady/2BRepresent/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="/Users/adylady/2BRepresent/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
